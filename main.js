@@ -8,7 +8,7 @@ function setup(){
 poseNet.on("pose",gotPoses);
 }
 function modelLoaded(){
-    console.log("Model Loaded")
+    console.log("Model Loaded");
 }
 function draw() {
     image(video,0,0,300,300);
